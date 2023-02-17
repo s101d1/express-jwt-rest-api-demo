@@ -23,9 +23,10 @@ For more details, check the **How to use the app** section below. And check the 
 	$ cd express-jwt-rest-api-demo
 	$ npm install
 
-## How to run the app
+## How to build and run the app
 
-	$ npm run dev
+	$ npm run build
+	$ npm run start
 
 The app should run by listening on localhost:3000.
 
