@@ -2,9 +2,7 @@
 
 This is a simple TypeScript Node.js application to show demonstration of JWT Authentication in REST API.
 
-In the code I use Express.js framework, passport-local, and passport-jwt modules for the demonstration.
-
-To make things simple, there is no database involved at all.
+I use [Express.js](https://expressjs.com/) framework, [passport-local](https://github.com/jaredhanson/passport-local), and [passport-jwt](https://github.com/mikenicholson/passport-jwt) modules for the demonstration. To make things simple, there is no database involved at all.
 
 The `/todos` API endpoints are the protected endpoints which require authentication with JWT token to be passed in the request header.
 
